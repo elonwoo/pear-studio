@@ -18,7 +18,7 @@
 
 ## Windows: Enable Symlinks
 
-This project uses symlinks to synchronize files such as AGENTS.md and skills. Windows developers must enable symlink support before cloning:
+This project uses symlinks to synchronize the skills directories. Windows developers must enable symlink support before cloning:
 
 1. **Enable Developer Mode** (Settings → Update & Security → For developers), or grant `SeCreateSymbolicLinkPrivilege` via `secpol.msc`.
 2. **Configure Git**:

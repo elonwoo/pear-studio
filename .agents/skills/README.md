@@ -28,7 +28,7 @@ pnpm skills:sync
 
 ## Windows Compatibility
 
-This project uses symlinks to synchronize files such as AGENTS.md and skills. Windows developers must enable symlink support:
+This project uses symlinks to synchronize the skills directories. Windows developers must enable symlink support:
 
 1. **Enable Developer Mode** (Settings → Update & Security → For developers), or
 2. **Grant `SeCreateSymbolicLinkPrivilege`** via Local Security Policy (`secpol.msc`).

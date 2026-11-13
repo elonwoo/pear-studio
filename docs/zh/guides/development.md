@@ -18,7 +18,7 @@
 
 ## Windows：启用符号链接
 
-本项目使用符号链接同步 AGENTS.md、skills 等文件。Windows 开发者在克隆前需启用符号链接支持：
+本项目使用符号链接同步 skills 目录。Windows 开发者在克隆前需启用符号链接支持：
 
 1. **启用开发者模式**（设置 → 更新和安全 → 开发者选项），或通过 `secpol.msc` 授予 `SeCreateSymbolicLinkPrivilege` 权限。
 2. **配置 Git**：

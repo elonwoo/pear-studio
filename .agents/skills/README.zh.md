@@ -28,7 +28,7 @@ pnpm skills:sync
 
 ## Windows 兼容性
 
-本项目使用符号链接同步 AGENTS.md、skills 等文件。Windows 开发者需要手动启用符号链接支持：
+本项目使用符号链接同步 skills 目录。Windows 开发者需要手动启用符号链接支持：
 
 1. **启用开发者模式**（设置 → 更新和安全 → 开发者选项），或
 2. 通过本地安全策略（`secpol.msc`）**授予 `SeCreateSymbolicLinkPrivilege` 权限**。
