@@ -47,7 +47,7 @@ jobs:
             PR number: ${{ github.event.number }}
             Repo: ${{ github.repository }}
 
-            Use the repository's CLAUDE.md for guidance on style and conventions. Be constructive and helpful in your feedback.
+            Use the repository's AGENTS.md (and the topic docs under docs/agents/) for guidance on style and conventions. Be constructive and helpful in your feedback.
 
             Use `gh pr comment` with your Bash tool to leave your review as a comment on the PR.
 
